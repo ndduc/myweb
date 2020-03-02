@@ -1,0 +1,86 @@
+.bodyIntro{
+	/*background-color: black;
+*/
+}
+
+.divNav{
+	/*border:dotted;*/
+	position: relative;
+	-webkit-animation-name: aniDrop; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  	animation-name: aniDrop;
+  	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+  	-moz-animation-fill-mode: forwards;    /* FF 5+ */
+  	-o-animation-fill-mode: forwards;      /* Not implemented yet */
+  	-ms-animation-fill-mode: forwards;     /* IE 10+ */
+  	animation-fill-mode: forwards;  
+}
+@-webkit-keyframes aniDrop{
+	0%   {visibility: visible; left:0px; top:0px;}
+  100%  {visibility: visible; left:0px; top:100px;}
+}
+@keyframes aniDrop {
+ 	 0%   {visibility: visible; left:0px; top:0px;}
+ 	100%  {visibility: visible; left:0px; top:100px;}
+}
+
+
+.nav1 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+span {
+	display: inline;
+	font-size: 20px;
+	font-family: 'tahoma';
+	text-align: center;
+
+}
+
+.divMyImageName {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.cntNav1, .cntNav2, .cntNav3, .cntNav4, .cntNav5 {
+	width: 130px;
+	height: 30px;
+	border-radius:20px;
+	border: 1px black solid;
+	text-align: center;
+	margin-right: 50px;
+	cursor:pointer;
+}
+
+.cntNav1:hover, .cntNav2:hover, .cntNav3:hover
+, .cntNav4:hover, .cntNav5:hover {
+	position: relative;
+	-webkit-animation-name: aniUpDown; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  	animation-name: aniUpDown;
+  	animation-duration: 1s;
+	
+	-webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+  	-moz-animation-fill-mode: forwards;    /* FF 5+ */
+  	-o-animation-fill-mode: forwards;      /* Not implemented yet */
+  	-ms-animation-fill-mode: forwards;     /* IE 10+ */
+  	animation-fill-mode: forwards;  
+
+}
+@-webkit-keyframes aniUpDown{
+	0%   {left:0px; top:0px;}
+	34%  {left:0px; top:-4px;}
+  100%  {left:0px; top:0px;}
+}
+
+@keyframes aniUpDown {
+  	0%   {left:0px; top:0px;}
+	34%  { left:0px; top:-4px;}
+  100%  {left:0px; top:0px;}
+}
+
