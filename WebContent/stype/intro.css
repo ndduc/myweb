@@ -22,13 +22,14 @@
   	-ms-animation-fill-mode: forwards;     /* IE 10+ */
   	animation-fill-mode: forwards;  
 }
+
 @-webkit-keyframes aniDrop{
 	0%   {visibility: visible; left:0px; top:0px;}
-  100%  {visibility: visible; left:0px; top:100px;}
+  100%  {visibility: visible; left:0px; top:50px;}
 }
 @keyframes aniDrop {
  	 0%   {visibility: visible; left:0px; top:0px;}
- 	100%  {visibility: visible; left:0px; top:100px;}
+ 	100%  {visibility: visible; left:0px; top:50px;}
 }
 
 
@@ -95,9 +96,11 @@ span {
 	align-items: center;
 }
 
-.divMyImageDesc {
-	font-size: 30px;
+.divMyImageDesc{
+	display:inline-block;
+	text-align: center;
 }
+
 
 .imgMyImage {
 	width: 200px;
@@ -123,17 +126,22 @@ span {
 
 @-webkit-keyframes aniDropMyImage{
 	0%   {visibility: visible; left:0px; top:0px;}
-  100%  {visibility: visible; left:0px; top:250px;}
+  100%  {visibility: visible; left:0px; top:150px;}
 }
 @keyframes aniDropMyImage {
  	 0%   {visibility: visible; left:0px; top:0px;}
- 	100%  {visibility: visible; left:0px; top:250px;}
+ 	100%  {visibility: visible; left:0px; top:150px;}
 }
 
 .divMyImageName2 {	/*DUMMY*/
 	height: 800px;
 }
 
+.divMyImageDesc2{
+	width:500px;
+	display:inline-block;	
+	text-align:center;
+}
 
 .divMyImageName2 {
 	display:none;
