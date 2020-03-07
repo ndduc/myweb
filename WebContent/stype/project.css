@@ -87,6 +87,10 @@ span {
 
 
 .divMyImageName {
+	border: 1px black solid;
+	margin-left:100px;
+	width: 600px;
+	height: 500px;
 	display:flex;
 	flex-direction:column;
 }
@@ -103,11 +107,17 @@ span {
 
 
 .imgMyImage {
-	width: 200px;
-	height: 200px;
+	width: 80px;
+	height: 80px;
 	border-radius:100px;
 	border: 1px black solid;
 	background: gray;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.imgMyImage:hover{
+	width: 200px;
+	height: 200px;
 }
 
 .divMyImageName {
@@ -133,9 +143,6 @@ span {
  	100%  {visibility: visible; left:0px; top:150px;}
 }
 
-.divMyImageName2 {	/*DUMMY*/
-	height: 800px;
-}
 
 .divMyImageDesc2{
 	width:500px;
@@ -143,22 +150,7 @@ span {
 	text-align:center;
 }
 
-.divMyImageName2 {
-	display:none;
-	flex-direction:column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	-webkit-animation-name: aniLeftMyImage; /* Safari 4.0 - 8.0 */
-  	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-  	animation-name: aniLeftMyImage;
-  	animation-duration: 2s;
-	-webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
-  	-moz-animation-fill-mode: forwards;    /* FF 5+ */
-  	-o-animation-fill-mode: forwards;      /* Not implemented yet */
-  	-ms-animation-fill-mode: forwards;     /* IE 10+ */
-  	animation-fill-mode: forwards;  
-}
+
 
 @-webkit-keyframes aniLeftMyImage{
 	0%   {visibility: visible; left:-500px; top:0px;}
@@ -172,4 +164,19 @@ span {
 
 .cntDummy {
 	height: 800px;
+}
+
+
+
+.divMyImage{
+	display: flex;
+}
+
+
+.p_note1 {
+	font-size:15px;
+}
+
+.divProjectCnt {
+
 }
