@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -6,11 +5,11 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!--Style for Nav and Body-->
-<link href="stype/project.css" rel="stylesheet" type="text/css" />
+<link href="../stype/project.css" rel="stylesheet" type="text/css" />
 
 	
-  <script type="text/javascript" src="script/project.js"></script>	
-  <script type="text/javascript" src="script/share.js"></script>
+  <script type="text/javascript" src="../script/project.js"></script>	
+  <script type="text/javascript" src="../script/share.js"></script>
 </head>
 <body id="idbody" class="bodyIntro">
 

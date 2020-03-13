@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <title>Intro Page</title>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<link href="stype/intro.css" rel="stylesheet" type="text/css" />
+<link href="../stype/intro.css" rel="stylesheet" type="text/css" />
 
 	
-  <script type="text/javascript" src="script/intro.js"></script>	
-  <script type="text/javascript" src="script/share.js"></script>
+<script type="text/javascript" src="../script/intro.js"></script>	
+<script type="text/javascript" src="../script/share.js"></script>
 </head>
 <body id="idbody" class="bodyIntro">
 
@@ -66,7 +66,7 @@
             </tr>
             
             <?php 
-                include 'php/query.php';
+                include '../php_archive/query.php';
                 $statement = selectCate();
                 while ($r = $statement->fetch()): 
             ?>

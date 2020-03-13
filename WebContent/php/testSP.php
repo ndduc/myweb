@@ -12,7 +12,7 @@
             </tr>
             
             <?php 
-                include 'php/query.php';
+                include '../php_archive/query.php';
                 $statement = selectCate();
                 while ($r = $statement->fetch()): 
             ?>
